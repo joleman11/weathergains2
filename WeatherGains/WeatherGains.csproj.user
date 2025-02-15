@@ -1,0 +1,11 @@
+<Project>
+    <!-- Custom Variables -->
+    <PropertyGroup>
+        <PluginDirectory>C:\Users\GIGABYTE\AppData\Roaming\r2modmanPlus-local\LethalCompany\profiles\gex modpack\BepInEx\plugins\RobuxTRex-Weather_Gains\</PluginDirectory>
+    </PropertyGroup>
+
+    <!-- Copy to Plugin Directory for Quicker Testing -->
+    <Target Name="CopyFiles" AfterTargets="PostBuildEvent">
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDirectory)"/>
+    </Target>
+</Project>
