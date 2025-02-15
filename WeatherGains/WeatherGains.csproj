@@ -2,7 +2,7 @@
 
     <!-- BepInEx Properties -->
     <PropertyGroup>
-        <AssemblyName>robuxtrex.weathergains</AssemblyName>
+        <AssemblyName>joleman11.weathergains</AssemblyName>
         <Product>WeatherGains</Product>
         <!-- Change to whatever version you're currently on. -->
         <Version>1.0.0</Version>
